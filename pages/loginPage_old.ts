@@ -7,14 +7,12 @@ export class LoginPage {
     readonly username: Locator;
     readonly password: Locator;
     readonly loginButton: Locator;
-    readonly errorMessage: Locator;
 
     constructor(page: Page) {
         this.page = page;
         this.username = page.getByRole('textbox', { name: 'Username'});
         this.password = page.getByRole('textbox', { name: 'Password'});
         this.loginButton = page.locator('[type=submit]');
-        this.errorMessage = page.locator('[data-test="error"]');
 
     }
 
@@ -29,9 +27,7 @@ export class LoginPage {
 
     }
 
-    // async verifyLoginSuccess() {
-    //     await this.page.waitForURL('https://www.saucedemo.com/inventory.html');
-    // }
-
-
+    async verifyLoginSuccess() {
+        await this.page.waitForURL('https://www.saucedemo.com/inventory.html');
+    }
 }
