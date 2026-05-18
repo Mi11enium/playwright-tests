@@ -10,7 +10,6 @@ test('Проверка переключения light mode', async ({ page }) =>
 
 });
 
-
 test('Проверка заголовка', async ({ page }) => {
 
     await page.goto('https://playwright.dev/');
