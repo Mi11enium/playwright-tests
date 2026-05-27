@@ -12,10 +12,12 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.7.0"
+    "@types/node": "^25.7.0",
+    "@types/xlsx": "^0.0.35"
   },
   "dependencies": {
     "csv-parse": "^6.2.1",
-    "upgrade": "^1.1.0"
+    "upgrade": "^1.1.0",
+    "xlsx": "^0.18.5"
   }
 }
