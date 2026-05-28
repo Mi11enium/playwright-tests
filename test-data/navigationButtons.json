@@ -1,0 +1,21 @@
+[
+  { "name": "JavaScript Delays", "url": "https://practice-automation.com/javascript-delays/" },
+  { "name": "Form Fields", "url": "https://practice-automation.com/form-fields/" },
+  { "name": "Popups", "url": "https://practice-automation.com/popups/" },
+  { "name": "Sliders", "url": "https://practice-automation.com/slider/" },
+  { "name": "Calendars", "url": "https://practice-automation.com/calendars/" },
+  { "name": "Modals", "url": "https://practice-automation.com/modals/" },
+  { "name": "Tables", "url": "https://practice-automation.com/tables/" },
+  { "name": "Window Operations", "url": "https://practice-automation.com/window-operations/" },
+  { "name": "Hover", "url": "https://practice-automation.com/hover/" },
+  { "name": "Ads", "url": "https://practice-automation.com/ads/" },
+  { "name": "Click Events", "url": "https://practice-automation.com/click-events/" },
+  { "name": "Gestures", "url": "https://practice-automation.com/gestures/" },
+  { "name": "File Download", "url": "https://practice-automation.com/file-download/" },
+  { "name": "Spinners", "url": "https://practice-automation.com/spinners/" },
+  { "name": "File Upload", "url": "https://practice-automation.com/file-upload/" },
+  { "name": "Iframes", "url": "https://practice-automation.com/iframes/" },
+  { "name": "Accordions", "url": "https://practice-automation.com/accordions/" },
+  { "name": "Broken Images", "url": "https://practice-automation.com/broken-images/" },
+  { "name": "Broken Links", "url": "https://practice-automation.com/broken-links/" }
+]
