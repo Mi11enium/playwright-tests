@@ -1,7 +1,7 @@
 import {Page, Locator} from '@playwright/test';
 
 
-type FormData = {
+export type FormData = {
     name: string;
     password: string;
     email: string;
