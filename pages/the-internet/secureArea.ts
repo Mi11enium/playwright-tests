@@ -1,7 +1,7 @@
 import {Page, Locator} from '@playwright/test';
 
 
-export class Secure {
+export class SecureAreaPage {
     readonly page: Page;
     readonly successMessage: Locator;
     readonly logoutButton: Locator;
