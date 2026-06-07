@@ -9,7 +9,7 @@ export type FormData = {
 };
 
 export class AutoPage {
-    readonly page: Page; 
+    readonly page: Page;
 
     readonly username: Locator;
     readonly password: Locator;
