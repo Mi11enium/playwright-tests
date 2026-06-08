@@ -12,9 +12,19 @@
   expect(usernameValue).toBe('user1');
   // Проверить извлеченное значение по части описания
   expect(usernameValue).toContain('user1');
+  // Проверить на содержимое текста внутри локатора
+  await expect(cartItemsCount).toContainText('3');
 
 
   Клики
   Кликнуть по элементу, по точному тексту.
   await page.click('text=Sign In');
-*/
+
+
+  Подсчет
+  Подсчет и проверка количества локаторов по заданному классу
+  const titles = page.locator('.book-title');
+  expect(await titles.count()).toBe(5);
+
+  */
+
