@@ -48,6 +48,7 @@ test.describe('Тесты главной страницы playwright.dev', () =>
       await expect(page.getByRole('link', { name: 'Get started'})).toContainText('Get started');
       await expect(page.getByRole('link', { name: 'Get started'})).toHaveAttribute('href', '/docs/intro');
 
+
   });
 
 });

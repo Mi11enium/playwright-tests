@@ -26,5 +26,15 @@
   const titles = page.locator('.book-title');
   expect(await titles.count()).toBe(5);
 
+  Выпадающий список
+  Выбор значения из выпадающего списка
+  await page.selectOption('select#categories', 'Fantasy');
+  Сохранение всех значений из выпадающего списка в переменную
+  const options = await page.locator('select#categories option').allInnerTexts()
+  Извлечение выбранного значения из выпадающего списка и его проверка
+  const selectedValue = await page.$eval('select#categories', select => select.value);
+  expect(selectedValue).toBe('Literature');
+
+
   */
 
